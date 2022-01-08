@@ -1,0 +1,28 @@
+<template>
+  <Indecision/>
+  <img alt="Vue logo" src="./assets/quest.png">
+ 
+</template>
+
+<script>
+
+import Indecision from '@/components/Indecision'
+
+export default {
+  name: 'App',
+  components:{
+    Indecision,   
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
